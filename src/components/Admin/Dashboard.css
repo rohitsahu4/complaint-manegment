@@ -1,0 +1,14 @@
+.td:hover{
+    background-color: #4f4f4f11;
+    cursor: pointer;
+}
+.display-image{
+    height: auto;
+    border-radius: 8px;
+    padding: 0px !important;
+    overflow: hidden !important;
+    cursor: pointer;
+}
+.txt{
+    font-weight:100 !important;
+}

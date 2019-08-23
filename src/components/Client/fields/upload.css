@@ -1,0 +1,60 @@
+#box {
+    opacity: 0;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+
+    -webkit-transition: opacity .5s ease-in;
+       -moz-transition: opacity .5s ease-in;
+        -ms-transition: opacity .5s ease-in;
+         -o-transition: opacity .5s ease-in;
+            transition: opacity .5s ease-in;
+}
+.Dropper-Background{
+    z-index: 1;
+    background-color: rgba(79, 79, 79, 0.063);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+.Dropper-close{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    text-align: center;
+    width: 33px;
+    z-index: 3;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Dropper-inner{
+    height: 470px;
+    width:470px;
+    position: fixed;
+    border: 4px dashed;
+    border-radius: 8px;
+    margin: 15px;
+}
+.Dropper{
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    z-index: 2;
+    top: calc(50% - 250px);
+    border-radius: 8px;
+    left: calc(50% - 250px);
+}
+#box.load {
+    opacity: 1;
+}
+.file-input{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}

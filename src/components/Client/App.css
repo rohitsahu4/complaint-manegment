@@ -1,0 +1,13 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none !important ; 
+  margin: 0 !important ;  
+}
+.mat{
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  left: 0px;
+  height: 100%;
+  background-color: rgba(79, 79, 79, 0.39);
+}
